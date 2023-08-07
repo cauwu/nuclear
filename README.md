@@ -2,6 +2,8 @@
 Nuclear power themed video game prototype made with Godot.
 The prototype is an experiment in producing assets, textures, scripting and gameplay for a real-time rendering engine, in a time and resource-effective way.
 
+!(/screenshot_warehouse.PNG)[]
+
 ## Directory structure
 When exported from Blender as `.glb` files, which contain both model, texture, and animation data set up in Blender, assets first go into the `/import` file, with a descriptive and unique name, using underscores for spaces.
 Godot works by having a `main` scene that the game runs. Everything in that scene is comprised of other scenes. The `main` scene imports scenes from `/levels`, which contains lighting and environmental information, which in sequence imports level geometry and collision information from `/assets/entities/maps`, which imports models from `/assets/entities/objects`. 
