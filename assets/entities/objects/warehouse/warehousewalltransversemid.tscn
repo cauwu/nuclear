@@ -1,0 +1,111 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://import/warehouse_wall_transverse_mid.glb" type="PackedScene" id=1]
+
+[node name="warehousewalltransversemid" instance=ExtResource( 1 )]
+transform = Transform( -4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -24, 0, 50 )
+
+[node name="Plane036" parent="." index="0"]
+use_in_baked_light = true
+
+[node name="Plane037" parent="." index="1"]
+use_in_baked_light = true
+
+[node name="Plane110" parent="." index="2"]
+use_in_baked_light = true
+
+[node name="Plane111" parent="." index="3"]
+use_in_baked_light = true
+
+[node name="Plane112" parent="." index="4"]
+use_in_baked_light = true
+
+[node name="Plane113" parent="." index="5"]
+use_in_baked_light = true
+
+[node name="Cube256" parent="." index="6"]
+use_in_baked_light = true
+
+[node name="Cube257" parent="." index="7"]
+use_in_baked_light = true
+
+[node name="Cube258" parent="." index="8"]
+use_in_baked_light = true
+
+[node name="Cube259" parent="." index="9"]
+use_in_baked_light = true
+
+[node name="Cube261" parent="." index="10"]
+use_in_baked_light = true
+
+[node name="Cube262" parent="." index="11"]
+use_in_baked_light = true
+
+[node name="Cube263" parent="." index="12"]
+use_in_baked_light = true
+
+[node name="Cube264" parent="." index="13"]
+use_in_baked_light = true
+
+[node name="Cube265" parent="." index="14"]
+use_in_baked_light = true
+
+[node name="Cube266" parent="." index="15"]
+use_in_baked_light = true
+
+[node name="Cube267" parent="." index="16"]
+use_in_baked_light = true
+
+[node name="Cube268" parent="." index="17"]
+use_in_baked_light = true
+
+[node name="Plane114" parent="." index="18"]
+use_in_baked_light = true
+
+[node name="Plane115" parent="." index="19"]
+use_in_baked_light = true
+
+[node name="Plane116" parent="." index="20"]
+use_in_baked_light = true
+
+[node name="Plane117" parent="." index="21"]
+use_in_baked_light = true
+
+[node name="Plane118" parent="." index="22"]
+use_in_baked_light = true
+
+[node name="Plane119" parent="." index="23"]
+use_in_baked_light = true
+
+[node name="Cube269" parent="." index="24"]
+use_in_baked_light = true
+
+[node name="Plane120" parent="." index="25"]
+use_in_baked_light = true
+
+[node name="Cube270" parent="." index="26"]
+use_in_baked_light = true
+
+[node name="Cube271" parent="." index="27"]
+use_in_baked_light = true
+
+[node name="Plane122" parent="." index="28"]
+use_in_baked_light = true
+
+[node name="Cube242" parent="." index="29"]
+use_in_baked_light = true
+
+[node name="Cube260" parent="." index="30"]
+use_in_baked_light = true
+
+[node name="Cube272" parent="." index="31"]
+use_in_baked_light = true
+
+[node name="Plane121" parent="." index="32"]
+use_in_baked_light = true
+
+[node name="Cube273" parent="." index="33"]
+use_in_baked_light = true
+
+[node name="Cube275" parent="." index="34"]
+use_in_baked_light = true

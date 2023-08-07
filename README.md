@@ -9,7 +9,10 @@ Scripting can be added to any scene where necesary, and scripts are stored in `/
 
 ## Including assets into the project
 `.glb` files need to be organised into scenes to be included in Godot projects. `.glb` files are in `/import`, and Godot automatically unpacks `.material` files from them into `/import`. They are fine living there for now.
-Click on the `.glb` file you need a mesh from, click `New Inherited`, and in the `ObjectGeometry` setting of each mesh, to the right of the interface, check `Bake Lightmap` to `On`. This will allow `ProbeGI` to set up shadow information for each mesh later.
+Click on the `.glb` file you need a mesh from, click `New Inherited`, and in the `ObjectGeometry` setting of each mesh, to the right of the interface, check `Bake Lightmap` to `On`. This will allow `GIProbe` to set up shadow information for each mesh later.
 Give the asset a descriptive name at the top of the object tree (no spaces and without underscores, to differenciate it from `.glb` files in case of confusion) and save the scene to `/assets/entities/objects`. The asset can then be included elsewhere in the project.
+
+## GIProbe`
+`GIProbe` automatically calculates lightmap information based on environmental and scene lights. However, the information it generates is very large. Before pushing commits to Github, it is better to delete the `GIProbe` node from levels. This isn't much of a problem, because `GIProbe` mostly just prettifies a level and it's quick to set back up again.
 
 2023 Ceres Miller, Maya McCluskey
